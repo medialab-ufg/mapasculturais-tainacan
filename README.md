@@ -5,12 +5,12 @@ na aba "Sobre".
 
 ## Ativação
 
-Para ativar este plugin, adicione a seu config.php
+Para ativar este plugin, adicione a pasta 'Tainacan' em 'src/protected/plugins'.
+Feito isto, configure seu config.php:
 
 ```PHP
 
 'plugins' => [
-
     //... other plugin you may have...
     'Tainacan' =>['namespace'=>'Tainacan'],
 ],
