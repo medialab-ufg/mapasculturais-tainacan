@@ -5,7 +5,7 @@ na aba "Sobre".
 
 ## Ativação
 
-Para ativar este plugin, adicione a pasta 'Tainacan' em 'src/protected/plugins'.
+Para ativar este plugin, clone este repositorio em  pasta chamada 'Tainacan' em 'src/protected/plugins'.
 Feito isto, configure seu config.php:
 
 ```PHP
