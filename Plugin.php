@@ -12,7 +12,7 @@ class Plugin extends \MapasCulturais\Plugin {
     public function _init() {
         $app = App::i();
         
-        $app->hook('template(space.<<create|edit|single>>.acessibilidade):after', function() use($app){
+        $app->hook('template(space.<<create|edit|single>>.tab-about-service):end', function() use($app){
             $spaceEntity = $app->view->controller->requestedEntity;
             $this->part('tainacan-repository-url', ['entity' => $spaceEntity]);
         });
